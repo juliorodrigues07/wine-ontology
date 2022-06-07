@@ -18,8 +18,23 @@ ObjectProperty: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ont
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#GrapeVariety>
     
     
+ObjectProperty: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasModifier>
+
+    Characteristics: 
+        Functional
+    
+    Domain: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+    
+    Range: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ModifierValuePartition>
+    
+    
 ObjectProperty: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasType>
 
+    Characteristics: 
+        Functional
+    
     Domain: 
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
     
@@ -75,6 +90,12 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
     
     
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#FortifiedWine>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+    
+    
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortify>
 
     SubClassOf: 
@@ -125,8 +146,9 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ModifierValuePartition>
 
-    SubClassOf: 
+    EquivalentTo: 
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionTwo>
+         and (<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortify> or <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Gasify>)
     
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWWine>
@@ -174,6 +196,12 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
     
     
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedWine>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+    
+    
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Riesling>
 
     SubClassOf: 
@@ -192,6 +220,12 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
     
     
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RoséWIne>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+    
+    
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Sangiovese>
 
     SubClassOf: 
@@ -208,6 +242,12 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
 
     SubClassOf: 
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#SparklingWine>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
     
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Syrah>
@@ -236,8 +276,9 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
 
-    SubClassOf: 
+    EquivalentTo: 
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionOne>
+         and (<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortified> or <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Red> or <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Rosé> or <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Sparkling> or <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#White>)
     
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionOne>
@@ -271,6 +312,12 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
     
     DisjointWith: 
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteWine>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
     
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
