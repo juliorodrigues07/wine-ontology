@@ -1,0 +1,299 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11>
+
+
+ObjectProperty: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasGrapeVariety>
+
+    Domain: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+    
+    Range: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#GrapeVariety>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasType>
+
+    Domain: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+    
+    Range: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Alvarinho>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Barolo>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWWine>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#CabernetFranc>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#CabernetSauvignon>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Calyptra>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWWine>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Carménère>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Chardonnay>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortified>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortify>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ModifierValuePartition>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Gasify>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Gasify>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ModifierValuePartition>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortify>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Glera>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#GrapeVariety>
+
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Grenache>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Malbec>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Merlot>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ModifierValuePartition>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionTwo>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWWine>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Nebbiolo>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Partridge>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWWine>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#PinotGrigio>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#PinotNoir>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Red>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#GrapeVariety>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Riesling>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Ropiteau>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWWine>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Rosé>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Sangiovese>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#SauvignonBlanc>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Sparkling>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Syrah>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Tannat>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Tempranillo>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Torrontés>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionOne>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionOne>
+
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionTwo>
+
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Viognier>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#White>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#TypeValuePartition>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#WhiteGrapes>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#GrapeVariety>
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: owl:Thing
+
+    
+DisjointClasses: 
+    <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Alvarinho>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Chardonnay>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Glera>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#PinotGrigio>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Riesling>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#SauvignonBlanc>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Torrontés>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Viognier>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Barolo>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Calyptra>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Partridge>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Ropiteau>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#CabernetFranc>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#CabernetSauvignon>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Carménère>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Grenache>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Malbec>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Merlot>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Nebbiolo>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#PinotNoir>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Sangiovese>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Syrah>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Tannat>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Tempranillo>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortified>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Red>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Rosé>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Sparkling>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#White>
+
+DisjointClasses: 
+    <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#GrapeVariety>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionOne>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#ValuePartitionTwo>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Wine>
+
