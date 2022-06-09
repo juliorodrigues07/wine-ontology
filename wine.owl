@@ -1,4 +1,3 @@
-Prefix: dc: <http://purl.org/dc/elements/1.1/>
 Prefix: owl: <http://www.w3.org/2002/07/owl#>
 Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -66,6 +65,16 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
         not (<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasModifier> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Gasify>),
         not (<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasType> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Rosé>),
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasGrapeVariety> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Nebbiolo>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Burmester>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWine>,
+        not (<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasModifier> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Gasify>),
+        not (<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasType> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Rosé>),
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasGrapeVariety> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Alvarinho>,
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasModifier> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Fortify>
     
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#CabernetFranc>
@@ -159,6 +168,13 @@ Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#
 
     SubClassOf: 
         <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#RedGrapes>
+    
+    
+Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Krug>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#NamedWine>,
+        <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#hasModifier> some <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Gasify>
     
     
 Class: <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Malbec>
@@ -383,7 +399,7 @@ DisjointClasses:
     <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Alvarinho>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Chardonnay>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Glera>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#PinotGrigio>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Riesling>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#SauvignonBlanc>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Torrontés>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Viognier>
 
 DisjointClasses: 
-    <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Barolo>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Calyptra>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Porto>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Ropiteau>
+    <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Apothic>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Barolo>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Burmester>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Calyptra>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Chandon>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Krug>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Porto>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Ropiteau>
 
 DisjointClasses: 
     <http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#CabernetFranc>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#CabernetSauvignon>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Carménère>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Grenache>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Malbec>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Merlot>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Nebbiolo>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#PinotNoir>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Sangiovese>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Syrah>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Tannat>,<http://www.semanticweb.org/julio/ontologies/2022/5/untitled-ontology-11#Tempranillo>
